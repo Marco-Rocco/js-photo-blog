@@ -1,4 +1,17 @@
+
+
 header{
     text-align: center;
     padding: 20px 0px;
+    background-image: url(img/wall.png);
+    font-family: "Sometype Mono", monospace;
+}
+
+main {
+    background-image: url(img/cork.png);
+    padding: 20px;
+}
+
+.card-text {
+    font-family: Edu Tas Beginner;
 }
