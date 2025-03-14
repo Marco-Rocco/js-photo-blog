@@ -10,6 +10,7 @@ header{
 main {
     background-image: url(img/cork.png);
     padding: 20px;
+    height: 100%;
 }
 
 .container {
@@ -43,5 +44,5 @@ main {
 }
 
 .card-text {
-    font-family: "Sometype Mono", "monospace";
+   font-family: "Sometype Mono", monospace;
 }
