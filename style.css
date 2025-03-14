@@ -15,6 +15,11 @@ main {
 .container {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+}
+
+.row {
+    gap: 20px;
 }
 
 .card{
