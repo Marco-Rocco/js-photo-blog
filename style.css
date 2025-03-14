@@ -15,11 +15,16 @@ main {
 .container {
     display: flex;
     justify-content: space-evenly;
-    text-align: center;
+    max-width: 1000px;
 }
 
 .row {
     gap: 20px;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
 }
 
 .card{
@@ -33,8 +38,8 @@ main {
 }
 
 .card-img-top {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 .card-text {

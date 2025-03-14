@@ -27,7 +27,7 @@ console.log (rowContainer)
                 console.log(title, date, url);
 
                 // a result CONCATENIAMO l'html
-                result += `<div class="col">
+                result += `<div class="col l-4 md-6 sm-12">
                 
                 <div class="card">
                     <img src="${url}" class="card-img-top" alt="${title}">
