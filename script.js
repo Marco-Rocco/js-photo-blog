@@ -5,9 +5,12 @@ const photoElements = 'https://lanciweb.github.io/demo/api/pictures/'
 let rowContainer = document.getElementById('row')
 console.log (rowContainer)
 
-//invoca funzione
-
-//crea funzione (nel caso ci fosse bisogno di un bottone in futuro)
-for (let i = 1; i <= 6; i++) {
-    
-}
+//get api
+    axios.get(photoElements)
+        .then((response) => {
+            let dataArray = response.data;
+            console.log(dataArray)
+        })
+        .catch ((error) => {
+            console.log(errore)
+        })
