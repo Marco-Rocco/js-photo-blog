@@ -35,7 +35,7 @@ console.log (rowContainer)
                       <p class="card-text">${date}</p>
                        <p class="card-text">${title}</p>
                     </div>
-                    <img src="img/pin.svg" class="position-absolute top-0 start-50 translate-middle" alt="pin">
+                    <img src="img/pin.svg" id:"pin" class="position-absolute top-0 start-50 translate-middle" alt="pin">
                   </div>
 
               </div> `

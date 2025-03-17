@@ -10,7 +10,8 @@ header{
 main {
     background-image: url(img/cork.png);
     padding: 20px;
-    height: 100vh;
+    height: 100%;
+    padding: 100px ;
 }
 
 .container {
@@ -32,6 +33,7 @@ main {
     border-radius: 0%;
     padding: 20px;
     width: fit-content;
+    transition: all 0.5s;
 }
 
 .card > img {
@@ -91,4 +93,18 @@ main {
 
   #inside-container > img {
     width: 500px;
+    border-radius: 20px;
+  }
+
+
+
+/* hover */
+
+.card:hover{
+    transform: scale(1.2) rotate(10deg);
+    z-index: 1;
+}
+
+.card:hover ~ #pin {
+    display: none
   }
