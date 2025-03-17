@@ -77,6 +77,15 @@ console.log (rowContainer)
 
 function on() {
     document.getElementById("overlay").style.display = "block";
+    //collego l'immagine dell'overlay
+    const overlayImg = document.getElementById('overlay-img');
+    console.log(overlayImg);
+
+    //collego l'immagine della card ///IMPORTANTE/// uso "this." per selezionare l'immagine della card che sto selezionando
+    const cardImg = this.querySelector('.card-img-top')
+
+    overlayImg.src = cardImg.src
+    
     }
     
 function off() {
@@ -90,17 +99,12 @@ function off() {
 
 
 
-// //collego l'immagine dell'overlay
-// const overlayImg = document.getElementById('overlay-img')
-// console.log(overlayImg)
+
 
 
 
 // card.addEventListener('click', function(){
-//     overlayImg = this(overlayImg);
-
-//     overlayImg.src = `${url}`
-//     overlayImg.alt = `${title}`
+    
 // })
 
 
