@@ -21,27 +21,30 @@
         <h1 class="fw-bolder">ESTATE '24</h1>
     </header>
 
+    <!-- overlay  -->
     <div id="overlay" >
       
       <div id="inside-container">
         
         <button onclick="off()"><i class="fa-solid fa-circle-xmark"></i></button>
-        <img src="img/cork.png" alt="prova img">
+        <img id="overlay-img" src="" alt="">
 
       </div>
 
     </div>
+    <!-- overlay  -->
 
     <main>
         <div class="container text-center">
             <div id="row" class="row">
 
-              <!-- <div class="col">
+              <!-- <div class="col lg-4 md-6 sm-12">
                 
-                <div class="card">
-                    <img src="https://marcolanci.it/boolean/assets/pictures/1.png" class="card-img-top" alt="img">
+                <div class="card" onclick="on()">
+                    <img src="${url}" class="card-img-top" alt="${title}">
                     <div class="card-body">
-                      <p class="card-text">testo</p>
+                      <p class="card-text">${date}</p>
+                       <p class="card-text">${title}</p>
                     </div>
                     <img src="img/pin.svg" class="position-absolute top-0 start-50 translate-middle" alt="pin">
                   </div>

@@ -57,6 +57,10 @@ console.log (rowContainer)
 
         // overlay
 
+        //collego l'immagine dell'overlay
+        const overlayImg = document.getElementById('overlay-img')
+        console.log(overlayImg)
+
         function on() {
             document.getElementById("overlay").style.display = "block";
           }
