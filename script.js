@@ -29,7 +29,7 @@ console.log (rowContainer)
                 // a result CONCATENIAMO l'html
                 result += `<div class="col lg-4 md-6 sm-12">
                 
-                <div class="card">
+                <div class="card" onclick="on()">
                     <img src="${url}" class="card-img-top" alt="${title}">
                     <div class="card-body">
                       <p class="card-text">${date}</p>
@@ -51,3 +51,16 @@ console.log (rowContainer)
         .catch ((error => {
             console.log(error)
         }))
+
+
+
+
+        // overlay
+
+        function on() {
+            document.getElementById("overlay").style.display = "block";
+          }
+          
+          function off() {
+            document.getElementById("overlay").style.display = "none";
+          }
