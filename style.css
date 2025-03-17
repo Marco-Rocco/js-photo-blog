@@ -34,6 +34,7 @@ main {
     padding: 20px;
     width: fit-content;
     transition: all 0.5s;
+    box-shadow: 5px 5px 2px black;
 }
 
 .card > img {
@@ -52,17 +53,17 @@ main {
 /* overlay  */
 
 #overlay {
-    position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
+    position: fixed; 
+    display: none; 
+    width: 100%;
+    height: 100%; 
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
+    background-color: rgba(0,0,0,0.5); 
+    z-index: 2; 
+    cursor: pointer; 
     
   }
 
@@ -87,7 +88,7 @@ main {
     padding: 10px 15px;
     border: 0px;
     border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.586);
+    background-color: rgba(0, 0, 0, 0.6);
 
   }
 
@@ -103,8 +104,10 @@ main {
 .card:hover{
     transform: scale(1.2) rotate(10deg);
     z-index: 1;
+    box-shadow: 10px 10px 5px black;
+    
 }
 
-.card:hover ~ #pin {
-    display: none
-  }
+.card:hover .pin{
+    display: none;
+}
