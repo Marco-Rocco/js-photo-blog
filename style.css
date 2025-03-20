@@ -9,9 +9,9 @@ header{
 
 main {
     background-image: url(img/cork.png);
-    padding: 20px;
     height: 100%;
     padding: 100px ;
+    margin: auto;
 }
 
 .container {
@@ -65,6 +65,7 @@ main {
     z-index: 2; 
     cursor: pointer; 
     overflow: unscrollable;
+    padding: 50px;
     
   }
 
@@ -94,7 +95,7 @@ main {
   }
 
   #inside-container > img {
-    width: 500px;
+    max-width: 500px;
     border-radius: 20px;
   }
 
@@ -113,3 +114,14 @@ main {
     display: none;
 }
 
+/* media query for small screen  */
+@media screen and (max-width: 750px) {
+
+    main {
+        padding: 30px;
+    }
+
+    .card-img-top{
+        width: 150px;
+    }
+}
