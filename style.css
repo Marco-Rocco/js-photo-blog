@@ -123,5 +123,12 @@ main {
 
     .card-img-top{
         width: 150px;
+        height: 150px;
     }
+
+    #inside-container > img {
+        max-width:400px;
+        border-radius: 20px;
+      }
+    
 }
